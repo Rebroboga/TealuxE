@@ -483,10 +483,10 @@ ul {
   content: '';
   position: absolute;
   display: block;
-  top: -7px;
-  right: -7px;
-  left: -7px;
-  bottom: -7px;
+  top: -9px;
+  right: -9px;
+  left: -9px;
+  bottom: -9px;
 }
 
 .checkbox:checked + .checkbox-style::before {
