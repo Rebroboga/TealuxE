@@ -32,7 +32,6 @@ body {
   font-size: 20px;
   font-weight: 300;
   line-height: normal;
-  line-height: normal;
   /* font-family: 'Cormorant', serif; */
 }
 
@@ -478,6 +477,16 @@ ul {
   background-color: #fff;
   margin-top: 5px;
   cursor: pointer;
+}
+
+.checkbox-style::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: -7px;
+  right: -7px;
+  left: -7px;
+  bottom: -7px;
 }
 
 .checkbox:checked + .checkbox-style::before {
